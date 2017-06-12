@@ -22,14 +22,16 @@ Note: There are ready routers with DD-WRT install on them. However; if you have 
  
 5 steps to flash the router
  
-1- Make sure the router is compatible with DD-WRT to avoid bricking issues
+__1- Check Router Compatibility :__
  
-Check DD-WRT database to  check the model number and its version 
+Make sure the router is compatible with DD-WRT to avoid bricking issues.You can 
+
+check DD-WRT database to  check the model number and its version 
  
-DD-WRT Router Database : https://www.dd-wrt.com/site/support/router-database
+>> __DD-WRT Router Database : https://www.dd-wrt.com/site/support/router-database__
  
  
-2- Hard Rest :
+__2- Hard Rest :__
  
 If the router is compatible with DD-WRT. Proceed with hard reset known as  30/30/30
  
@@ -39,7 +41,7 @@ Plug the router back and continue holding for 30 seconds
  
 Note: do not release the reset button until you finish the 120 seconds in order
  
-3- Updating the router firmware
+__3- Updating the router firmware__
  
 Access the Default Gateway address of the network, usually for Netgear routers are 192.168.1.1 and enter the username and password
  
@@ -59,7 +61,7 @@ The build is uploaded to the resources section of this repo
 Note: the router at this stage will turn on and off multiple times during the flashing time
  
  
-4-  DD-WRT Web GUI
+__4-  DD-WRT Web GUI__
  
 If the firmware is installed correctly, you should see the below web gui
  
@@ -67,14 +69,16 @@ If the firmware is installed correctly, you should see the below web gui
 		
  
  
-Pros and Cons of this this build of DD-WRT
-Pros:
+#### Pros and Cons of this this build of DD-WRT
+
+__Pros:__
  
-Can have multiple SSIDs
+- Can have multiple SSIDs
  
-Cons:
-Does not support network encryptions : WPA,WPA2
-It works only on Open networks
+__Cons:__
+- Does not support network encryptions : WPA,WPA2
+
+- It works only on Open networks
  
  
  
